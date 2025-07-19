@@ -11,12 +11,12 @@ def home(request):
     else:
          city = 'mysuru'     
     
-    url=f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=3b49f3648f44937a0a533406d772b417'
+    url=f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={OPEN_WEATHER_MAP_API_KEY}'
     PARAMS = {'units':'metric'}
 
-    API_KEY =  'AIzaSyAj1KHQ2PjAzzqhCnvhLqhsYAOqsQLsEe4'
+    API_KEY =  'PROGRAMMABLE_SEARCH_ENGINE_API_KEY'
 
-    SEARCH_ENGINE_ID = '26fda1b89b1dd4904'
+    SEARCH_ENGINE_ID = ' SEARCH_ENGINE_ID'
      
     query = city + " 1920x1080"
     page = 1
